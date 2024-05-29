@@ -1,3 +1,4 @@
+import 'package:crud_assignment/screen/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -11,6 +12,7 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData.dark(
         useMaterial3: true,
       ),
+      home: HomeScreen(),
     );
   }
 }
