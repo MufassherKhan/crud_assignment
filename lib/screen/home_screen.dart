@@ -107,7 +107,7 @@ class _HomeScreenState extends State<HomeScreen> {
       children: [
         Card(
           child: Padding(
-            padding: EdgeInsets.all(8.0),
+            padding:const EdgeInsets.all(8.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.center,
@@ -151,7 +151,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       overflow: TextOverflow.fade,
                       maxLines: 1,
                     ),
-                    Text(
+                    const Text(
                       'Total Price:',
                       overflow: TextOverflow.fade,
                       maxLines: 1,
@@ -168,7 +168,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
         Padding(
-          padding: EdgeInsets.all(8.0),
+          padding:const EdgeInsets.all(8.0),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
